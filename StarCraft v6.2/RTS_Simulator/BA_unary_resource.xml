@@ -1,0 +1,11 @@
+<unary_resource>
+	<unary name="Commander"></unary>
+	<unary name="Factory"></unary>
+	<unary name="Construction_Unit"></unary>
+	<unary name="Combat_Unit"></unary>
+	<unary name="Metal_Extractor"></unary>
+	<unary name="Solar_Panel"></unary>
+	
+</unary_resource>
+
+

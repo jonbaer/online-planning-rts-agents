@@ -1,0 +1,8 @@
+<vol_resource>
+	<volumetric name="Mineral" rate="1.35" init_amt="100"></volumetric>
+	<volumetric name="Gas" rate="2.1" init_amt="0"></volumetric>
+	<volumetric name="Supply" rate="-10" init_amt="5"></volumetric>
+	
+</vol_resource>
+
+

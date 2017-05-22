@@ -1,0 +1,10 @@
+<combat_unit>
+	<unit name="armham" init_amt="0"></unit>
+	<unit name="armjeth" init_amt="0"></unit>
+	<unit name="armrock" init_amt="0"></unit>
+	<unit name="armpw" init_amt="0"></unit>	
+	<unit name="armflea" init_amt="0"></unit>
+	<unit name="armwar" init_amt="0"></unit>
+</combat_unit>
+
+

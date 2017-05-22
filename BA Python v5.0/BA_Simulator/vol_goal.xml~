@@ -1,0 +1,7 @@
+<vol_resource>
+	<volumetric name="armmex" rate="1.35" init_amt="200"></volumetric>
+	<volumetric name="armsolar" rate="2.1" init_amt="200"></volumetric>
+	
+</vol_resource>
+
+

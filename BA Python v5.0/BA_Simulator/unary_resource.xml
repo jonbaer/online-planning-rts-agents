@@ -1,0 +1,9 @@
+<unary_resource>
+	<unary name="armcom" worktime="300" exist="1"></unary>
+	<unary name="armlab" worktime = "100" exist="1"></unary>
+	<unary name="armck" worktime = "90" exist="3"></unary>
+	<unary name="armmex" worktime = "0" exist="0"></unary>
+	<unary name="armsolar" worktime = "0" exist="0"></unary>
+</unary_resource>
+
+

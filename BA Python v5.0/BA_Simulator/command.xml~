@@ -1,0 +1,235 @@
+<command>
+	<action>
+	    <name>Assist_Armlab</name>
+		<duration>-1</duration>
+		<volumetric_dictionary>
+			<volumetric key="armmex" value="0"></volumetric>
+			<volumetric key="armsolar" value ="0"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>armcom</unary>
+		</unary_list>
+		<exist_list> 
+			<exist>armlab</exist>
+		</exist_list>
+		<effect_list>
+			<effect key="Increment_FacWorkTime" value="null"></effect>
+		</effect_list>
+	</action>
+	
+	<action>
+	    <name>Assist_Armcom</name>
+		<duration>-1</duration>
+		<volumetric_dictionary>
+			<volumetric key="armmex" value="0"></volumetric>
+			<volumetric key="armsolar" value ="0"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>armck</unary>
+		</unary_list>
+		<exist_list> 
+			<exist>armcom</exist>
+		</exist_list>
+		<effect_list>
+			<effect key="Increment_CmdWorkTime" value="90"></effect>
+		</effect_list>
+	</action>
+	<action>
+	    <name>Build_Armck</name>
+		<duration>3453</duration>
+		<volumetric_dictionary>
+			<volumetric key="armmex" value="102"></volumetric>
+			<volumetric key="armsolar" value ="1521"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>armlab</unary>
+		</unary_list>
+		<exist_list> 
+			
+		</exist_list>
+		<effect_list>
+			<effect key="Increment" value="armck"></effect>
+			<effect key="Inc_Metal_Cap" value="50"></effect>
+			<effect key="Inc_NRG_Cap" value="50"></effect>
+		</effect_list>
+	</action>
+	<action>
+	    <name>Build_Armflea</name>
+		<duration>789</duration>
+		<volumetric_dictionary>
+			<volumetric key="armmex" value="14"></volumetric>
+			<volumetric key="armsolar" value ="322"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>armlab</unary>
+		</unary_list>
+		<exist_list> 
+			
+		</exist_list>
+		<effect_list>
+			<effect key="Increment_Unit" value="armflea"></effect>
+		</effect_list>
+	</action>
+	
+	<action>
+	    <name>Build_Armpw</name>
+		<duration>1420</duration>
+		<volumetric_dictionary>
+			<volumetric key="armmex" value="45"></volumetric>
+			<volumetric key="armsolar" value ="897"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>armlab</unary>
+		</unary_list>
+		<exist_list> 
+			
+		</exist_list>
+		<effect_list>
+			<effect key="Increment_Unit" value="armpw"></effect>
+		</effect_list>
+	</action>
+	
+	<action>
+	    <name>Build_Armrock</name>
+		<duration>1887</duration>
+		<volumetric_dictionary>
+			<volumetric key="armmex" value="97"></volumetric>
+			<volumetric key="armsolar" value ="944"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>armlab</unary>
+		</unary_list>
+		<exist_list> 
+			
+		</exist_list>
+		<effect_list>
+			<effect key="Increment_Unit" value="armrock"></effect>
+		</effect_list>
+	</action>
+	
+<!--	<action>
+	    <name>Build_Armjeth</name>
+		<duration>1831</duration>
+		<volumetric_dictionary>
+			<volumetric key="armmex" value="115"></volumetric>
+			<volumetric key="armsolar" value ="1097"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>armlab</unary>
+		</unary_list>
+		<exist_list> 
+			
+		</exist_list>
+		<effect_list>
+			<effect key="Increment_Unit" value="armjeth"></effect>
+		</effect_list>
+	</action>
+	<action>
+	    <name>Build_Armham</name>
+		<duration>2210</duration>
+		<volumetric_dictionary>
+			<volumetric key="armmex" value="121"></volumetric>
+			<volumetric key="armsolar" value ="1231"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>armlab</unary>
+		</unary_list>
+		<exist_list> 
+			
+		</exist_list>
+		<effect_list>
+			<effect key="Increment_Unit" value="armham"></effect>
+		</effect_list>
+	</action> -->
+
+<	<action>
+	    <name>Build_Armwar</name>
+		<duration>3828</duration>
+		<volumetric_dictionary>
+			<volumetric key="armmex" value="248"></volumetric>
+			<volumetric key="armsolar" value ="2944"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>armlab</unary>
+		</unary_list>
+		<exist_list> 
+			
+		</exist_list>
+		<effect_list>
+			<effect key="Increment_Unit" value="armwar"></effect>
+		</effect_list>
+	</action> 
+	<action>
+	    <name>Build_Armlab</name>
+		<duration>6760</duration>
+		<volumetric_dictionary>
+			<volumetric key="armmex" value="605"></volumetric>
+			<volumetric key="armsolar" value ="1130"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>armcom</unary>
+		</unary_list>
+		<exist_list> 
+			
+		</exist_list>
+		<effect_list>
+			<effect key="Increment" value="armlab"></effect>
+			<effect key="Inc_Metal_Cap" value="50"></effect>
+		</effect_list>
+	</action>
+<!--	<action>
+	    <name>Build_Armmex</name>
+		<duration>1800</duration>
+		<volumetric_dictionary>
+			<volumetric key="armmex" value="50"></volumetric>
+			<volumetric key="armsolar" value ="521"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>armcom</unary>
+		</unary_list>
+		<exist_list> 
+			
+		</exist_list>
+		<effect_list>
+			<effect key="Accumulate_Metal" value="2.04"></effect>
+		</effect_list>
+	</action> -->
+	<action>
+	    <name>Build_Armmstor</name>
+		<duration>2925</duration>
+		<volumetric_dictionary>
+			<volumetric key="armmex" value="305"></volumetric>
+			<volumetric key="armsolar" value ="535"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>armcom</unary>
+		</unary_list>
+		<exist_list> 
+			<!--<exist>Command_Center</exist>-->
+		</exist_list>
+		<effect_list>
+			<effect key="Inc_Metal_Cap" value="3000"></effect>
+		</effect_list>
+	</action>
+	<action>
+	    <name>Build_Armsolar</name>
+		<duration>2845</duration>
+		<volumetric_dictionary>
+			<volumetric key="armmex" value="145"></volumetric>
+			<volumetric key="armsolar" value="0"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>armcom</unary>
+		</unary_list>
+		<exist_list> 
+			<!--<exist>Command_Center</exist>-->
+		</exist_list>
+		<effect_list>
+			<effect key="Accumulate_NRG" value="20"></effect>
+		</effect_list>
+	</action>
+	
+	
+</command>
+
+

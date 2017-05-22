@@ -1,0 +1,9 @@
+<unary_resource>
+	<unary name="Command_Center" exist="2"></unary>
+	<unary name="Barracks_Bldg" exist="1"></unary>
+	<unary name="Refinery_Bldg" exist="1"></unary>
+	<unary name="Worker" exist="10"></unary>
+	
+</unary_resource>
+
+

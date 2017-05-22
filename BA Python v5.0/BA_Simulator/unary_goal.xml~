@@ -1,0 +1,7 @@
+<unary_resource>
+	<unary name="armlab" exist="1" metCost="605" nrgCost="1130" durAmt ="6760"></unary>
+	<unary name="armck" exist="0"  metCost="102" nrgCost="1521" durAmt="3453"></unary>
+	<unary name="armmex" exist="0"  metCost="50" nrgCost="521" durAmt="1800"></unary>
+</unary_resource>
+
+

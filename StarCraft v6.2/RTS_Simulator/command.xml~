@@ -1,0 +1,142 @@
+<command>
+	<action>
+	    <name>Build_Barracks</name>
+		<duration>80</duration>
+		<volumetric_dictionary>
+			<volumetric key="Mineral" value="150"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>Worker</unary>
+		</unary_list>
+		<exist_list> 
+			
+		</exist_list>
+		<effect_list>
+			<effect key="Increment" value="Barracks_Bldg"></effect>
+		</effect_list>
+	</action>
+	
+	<action>
+	    <name>Build_CmdCenter</name>
+		<duration>120</duration>
+		<volumetric_dictionary>
+			<volumetric key="Mineral" value="400"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>Worker</unary>
+		</unary_list>
+		<exist_list> 
+			
+		</exist_list>
+		<effect_list>
+			<effect key="Increment" value="Command_Center"></effect>
+		</effect_list>
+	</action>
+	
+	<action>
+	    <name>Build_Refinery</name>
+		<duration>40</duration>
+		<volumetric_dictionary>
+			<volumetric key="Mineral" value="100"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>Worker</unary>
+		</unary_list>
+		<exist_list> 
+			
+		</exist_list>
+		<effect_list>
+			<effect key="Increment" value="Refinery_Bldg"></effect>
+		</effect_list>
+	</action>
+	
+	<action>
+	    <name>Build_SupplyDepot</name>
+		<duration>40</duration>
+		<volumetric_dictionary>
+			<volumetric key="Mineral" value="100"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>Worker</unary>
+		</unary_list>
+		<exist_list> 
+			
+		</exist_list>
+		<effect_list>
+			<effect key="Accumulate_Fixed" value="Supply"></effect>
+		</effect_list>
+	</action>
+	
+	<action>
+	    <name>Build_Worker</name>
+		<duration>20</duration>
+		<volumetric_dictionary>
+			<volumetric key="Mineral" value="50"></volumetric>
+			<volumetric key="Supply" value="1"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>Command_Center</unary>
+		</unary_list>
+		<exist_list> 
+			
+		</exist_list>
+		<effect_list>
+			<effect key="Increment" value="Worker"></effect>
+		</effect_list>
+	</action>
+	
+	<action>
+	    <name>Build_Marine</name>
+		<duration>20</duration>
+		<volumetric_dictionary>
+			<volumetric key="Mineral" value="50"></volumetric>
+			<volumetric key="Supply" value="1"></volumetric>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>Barracks_Bldg</unary>
+		</unary_list>
+		<exist_list> 
+			
+		</exist_list>
+		<effect_list>
+			<effect key="Unit_Increment" value="Marine"></effect>
+		</effect_list>
+	</action>
+	
+	<action>
+	    <name>Mineral</name>
+		<duration>0</duration>
+		<volumetric_dictionary>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>Worker</unary>
+		</unary_list>
+		<exist_list> 
+			<exist>Command_Center</exist>
+		</exist_list>
+		<effect_list>
+			<effect key="Hold" value="Worker"></effect>
+			<effect key="Accumulate" value="Mineral"></effect>
+		</effect_list>
+	</action>
+	
+	<action>
+	    <name>Gas</name>
+		<duration>0</duration>
+		<volumetric_dictionary>
+		</volumetric_dictionary>
+		<unary_list>
+			<unary>Worker</unary>
+		</unary_list>
+		<exist_list> 
+			<exist>Refinery_Bldg</exist>
+		</exist_list>
+		<effect_list>
+			<effect key="Hold" value="Worker"></effect>
+			<effect key="Accumulate" value="Gas"></effect>
+		</effect_list>
+	</action>
+	
+</command>
+
+

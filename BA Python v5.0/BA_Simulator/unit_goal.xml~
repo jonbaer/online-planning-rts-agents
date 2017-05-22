@@ -1,0 +1,8 @@
+<combat_unit>
+	<unit name="armham" exist="0" metCost="121" nrgCost="1231" durAmt = "2210"></unit>
+	<unit name="armjeth" exist="0" metCost="115" nrgCost="1097" durAmt = "1831"></unit>
+	<unit name="armrock" exist="0" metCost="97" nrgCost="944" durAmt = "1887"></unit>
+	<unit name="armwar" exist="0" metCost="248" nrgCost="2944" durAmt = "3828"></unit>
+	<unit name="armpw" exist="3" metCost="45" nrgCost="897" durAmt = "1420"></unit>
+	<unit name="armflea" exist="3" metCost="14" nrgCost="322" durAmt = "789"></unit>
+</combat_unit>

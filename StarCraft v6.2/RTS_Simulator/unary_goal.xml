@@ -1,0 +1,9 @@
+<unary_resource>
+	<unary name="Command_Center" exist="1" minCost="400" gasCost="0" suppCost="0" durAmt ="120"></unary>
+	<unary name="Barracks_Bldg" exist="0" minCost="150" gasCost="0"  suppCost="0" durAmt = "80"></unary>
+	<unary name="Refinery_Bldg" exist="0" minCost="100" gasCost="0"  suppCost="0" durAmt ="40"></unary>
+	<unary name="Worker" exist="5" minCost = "50" gasCost ="0" suppCost="1" durAmt="20"></unary>
+	
+</unary_resource>
+
+
